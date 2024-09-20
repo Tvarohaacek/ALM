@@ -67,7 +67,7 @@ namespace spirala_input
 
         private void UpdateGrid_Click(object sender, RoutedEventArgs e)
         {
-            // Získání hodnot ze sliderů
+            
             size = (int)sizeSlider.Value;
             gap = (int)gapSlider.Value;
 
@@ -76,7 +76,7 @@ namespace spirala_input
             map = new Rectangle[size, size]; 
             CreateGridWithSquares(size);
 
-            // Reset pozic
+            
             StartX = 0;
             StartY = 0;
 
